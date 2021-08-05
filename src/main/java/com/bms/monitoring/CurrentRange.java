@@ -6,7 +6,10 @@ import java.util.Map;
 public final class CurrentRange {
 
     public static Map<String, Integer> checkRangeReadings(List<Integer> currentRange) {
-
-        return null;
+        Map<String, Integer> currentRangeResult = null;
+        if(currentRange == null || currentRange.isEmpty()){
+            currentRangeResult = null;
+        }
+        return currentRangeResult;
     }
 }
